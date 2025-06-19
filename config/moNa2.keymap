@@ -98,7 +98,7 @@
 &lt 1 LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL AT  &lt 2 ASTRK  &kp LEFT_SHIFT    &lt 3 SPACE  &lt 3 ENTER                             &kp PRINTSCREEN
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp A B>;
         };
 
         layer_1 {
