@@ -15,11 +15,6 @@
     combos {
         compatible = "zmk,combos";
 
-        Henkan {
-            bindings = <&kp INT_HENKAN>;
-            key-positions = <22 39>;
-        };
-
         M1 {
             bindings = <&m0>;
             key-positions = <37 38>;
@@ -84,7 +79,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp W         &kp E         &kp R     &kp T                                             &kp Y          &kp U  &kp I      &kp O    &kp P
-&lt 4 A      &kp S         &kp D         &kp F     &kp G        &trans         &kp MINUS             &kp H          &kp J  &kp K      &kp L    &kp BACKSPACE
+&kp A        &kp S         &kp D         &kp F     &kp G        &trans         &kp MINUS             &kp H          &kp J  &kp K      &kp L    &kp BACKSPACE
 &lt 4 Z      &kp X         &kp C         &kp V     &kp B        &kp F2         &kp EQUAL             &kp N          &kp M  &kp COMMA  &kp DOT  &kp ENTER
 &lt 1 LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 AT  &lt 2 ASTRK  &lt 3 SPACE    &mt LEFT_SHIFT ENTER  &mt LCTRL DEL                             &kp PRINTSCREEN
             >;
@@ -127,10 +122,10 @@
 
         layer_4 {
             bindings = <
-&trans  &kp LC(C)  &kp LC(P)  &mkp MB4    &mkp MB5                     &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(X)  &mkp MB3   &mkp MB2    &mkp MB1   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &kp LA(F4)  &kp LC(W)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans      &trans     &trans    &trans  &trans                          &trans
+&trans  &trans  &trans    &mkp MB3   &trans                           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp MB5  &mkp MB2   &kp LC(W)   &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp MB4  &mkp MB1   &kp LA(F4)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &kp LC(X)  &kp LC(P)   &kp LC(C)    &trans  &trans                          &trans
             >;
         };
 
