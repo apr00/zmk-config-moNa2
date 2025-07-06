@@ -24,6 +24,16 @@
             bindings = <&kp ENTER>;
             key-positions = <38 39>;
         };
+
+        Henkan {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <13 14>;
+        };
+
+        Muhenkan {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
