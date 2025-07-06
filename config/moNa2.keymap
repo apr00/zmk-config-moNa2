@@ -132,10 +132,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &kp LA(F4)  &kp LC(C)                         &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LC(W)   &kp LC(V)  &trans       &trans    &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &kp LC(X)  &kp LC(W)    &trans    &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &mkp MB3    &mkp MB2   &mkp MB1     &mkp MB4  &mkp MB5                          &trans
+&kp LC(LA(DELETE))  &trans  &trans  &kp LC(W)   &kp LC(C)                        &trans    &trans  &trans  &trans  &trans
+&trans              &trans  &trans  &kp LC(F4)  &kp LC(V)  &trans      &trans    &trans    &trans  &trans  &trans  &trans
+&trans              &trans  &trans  &trans      &kp LC(X)  &trans      &trans    &trans    &trans  &trans  &trans  &trans
+&trans              &trans  &trans  &mkp MB3    &mkp MB2   &mkp MB1    &mkp MB4  &mkp MB5                          &trans
             >;
         };
 
