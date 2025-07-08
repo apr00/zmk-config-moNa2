@@ -40,7 +40,7 @@
             key-positions = <37 38>;
         };
 
-        Tab {
+        Tabchange {
             bindings = <&kp LC(TAB)>;
             key-positions = <38 39>;
         };
