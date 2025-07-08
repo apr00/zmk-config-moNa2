@@ -15,16 +15,6 @@
     combos {
         compatible = "zmk,combos";
 
-        M1 {
-            bindings = <&m0>;
-            key-positions = <4 3>;
-        };
-
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <13 14>;
-        };
-
         Dot {
             bindings = <&kp SLASH>;
             key-positions = <16 28>;
@@ -35,19 +25,14 @@
             key-positions = <22 34>;
         };
 
-        Conrtol {
-            bindings = <&kp LCTRL>;
-            key-positions = <22 10>;
-        };
-
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <0 10>;
+            key-positions = <10 22>;
         };
 
         Henkan {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <38 39>;
+            key-positions = <40 41>;
         };
     };
 
