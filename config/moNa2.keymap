@@ -32,17 +32,12 @@
 
         Henkan {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <40 39>;
+            key-positions = <39 38>;
         };
 
         F13a {
             bindings = <&kp F13>;
             key-positions = <37 38>;
-        };
-
-        F14a {
-            bindings = <&kp F14>;
-            key-positions = <38 39>;
         };
 
         Tab3 {
@@ -112,7 +107,7 @@
             bindings = <
 &kp Q      &kp W         &kp E         &kp R     &kp T                                  &kp Y               &kp U  &kp I      &kp O    &lt 4 P
 &lt 4 A    &kp S         &kp D         &kp F     &kp G        &trans         &kp MINUS  &kp H               &kp J  &kp K      &kp L    &kp BACKSPACE
-&lt 4 Z    &kp X         &kp C         &kp V     &kp B        &kp LG(V)      &kp EQUAL  &kp N               &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&lt 4 Z    &kp X         &kp C         &kp V     &kp B        &kp F2         &kp EQUAL  &kp N               &kp M  &kp COMMA  &kp DOT  &kp ENTER
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 AT  &lt 2 ASTRK  &lt 3 SPACE    &kp ENTER  &mt LEFT_SHIFT DEL                             &kp PRINTSCREEN
             >;
 
@@ -132,10 +127,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE  &trans          &kp UP_ARROW    &kp PG_UP        &kp HOME                         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_PLUS
-&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &trans    &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &kp KP_MINUS
-&trans      &trans          &trans          &kp PAGE_DOWN    &kp INSERT  &trans    &kp SLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &kp KP_MULTIPLY
-&trans      &trans          &trans          &trans           &trans      &trans    &trans     &kp KP_EQUAL                                                        &kp KP_DIVIDE
+&kp ESCAPE  &trans          &kp UP_ARROW    &kp PG_UP        &kp HOME                            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_PLUS
+&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &trans       &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &kp KP_MINUS
+&trans      &trans          &trans          &kp PAGE_DOWN    &kp INSERT  &trans       &kp SLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &kp KP_MULTIPLY
+&trans      &trans          &trans          &trans           &trans      &kp LG(V)    &trans     &kp KP_EQUAL                                                        &kp KP_DIVIDE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -143,10 +138,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &m198    &m100                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp AMPS    &kp TILDE
-&trans  &trans  &trans  &m123    &m2011   &trans    &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH       &kp DOLLAR  &kp PERCENT
-&trans  &trans  &trans  &kp F15  &kp F16  &All      &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp SQT     &kp BACKSLASH
-&trans  &trans  &trans  &trans   &trans   &trans    &trans           &trans                                                                  &kp PIPE
+&trans  &trans  &trans  &m198    &m100                                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp AMPS    &kp TILDE
+&trans  &trans  &trans  &m123    &m2011     &trans    &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH       &kp DOLLAR  &kp PERCENT
+&trans  &trans  &trans  &kp F15  &kp F16    &All      &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp SQT     &kp BACKSLASH
+&trans  &trans  &trans  &trans   &kp LG(V)  &trans    &trans           &trans                                                                  &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
