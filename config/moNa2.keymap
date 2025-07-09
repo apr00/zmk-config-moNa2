@@ -20,29 +20,34 @@
             key-positions = <16 28>;
         };
 
-        Shift {
-            bindings = <&kp LEFT_SHIFT>;
+        Tab1 {
+            bindings = <&kp TAB>;
             key-positions = <22 34>;
         };
 
-        Tab {
+        Tab2 {
             bindings = <&kp TAB>;
             key-positions = <10 22>;
         };
 
         Henkan {
             bindings = <&kp LS(SPACE)>;
-            key-positions = <40 41>;
+            key-positions = <40 39>;
         };
 
-        Win7 {
-            bindings = <&kp LG(KP_NUMBER_7)>;
+        F13a {
+            bindings = <&kp F13>;
             key-positions = <37 38>;
         };
 
-        Tabchange {
-            bindings = <&kp LC(TAB)>;
+        F14a {
+            bindings = <&kp F14>;
             key-positions = <38 39>;
+        };
+
+        Tab3 {
+            bindings = <&kp TAB>;
+            key-positions = <0 10>;
         };
     };
 
@@ -105,10 +110,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R     &kp T                                             &kp Y               &kp U  &kp I      &kp O    &lt 4 P
-&lt 4 A    &kp S         &kp D         &kp F     &kp G        &trans         &kp MINUS             &kp H               &kp J  &kp K      &kp L    &kp BACKSPACE
-&lt 4 Z    &kp X         &kp C         &kp V     &kp B        &kp LG(V)      &kp EQUAL             &kp N               &kp M  &kp COMMA  &kp DOT  &kp ENTER
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 AT  &lt 2 ASTRK  &lt 3 SPACE    &mt LEFT_SHIFT ENTER  &mt LEFT_SHIFT DEL                             &kp PRINTSCREEN
+&kp Q      &kp W         &kp E         &kp R     &kp T                                  &kp Y               &kp U  &kp I      &kp O    &lt 4 P
+&lt 4 A    &kp S         &kp D         &kp F     &kp G        &trans         &kp MINUS  &kp H               &kp J  &kp K      &kp L    &kp BACKSPACE
+&lt 4 Z    &kp X         &kp C         &kp V     &kp B        &kp LG(V)      &kp EQUAL  &kp N               &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 AT  &lt 2 ASTRK  &lt 3 SPACE    &kp ENTER  &mt LEFT_SHIFT DEL                             &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -116,10 +121,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans         &trans         &trans         &trans                           &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
-&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans    &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
-&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans    &trans  &kp F11  &kp F12  &kp F13  &kp F14  &trans
-&trans  &bt BT_PRV     &bt BT_NXT     &trans         &trans         &trans    &trans  &trans                              &trans
+&trans  &trans         &trans         &trans         &trans                           &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans    &trans  &kp F4  &kp F5  &kp F6  &trans   &trans
+&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans    &trans  &kp F1  &kp F2  &kp F3  &trans   &trans
+&trans  &bt BT_PRV     &bt BT_NXT     &trans         &trans         &trans    &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -149,10 +154,10 @@
 
         layer_4 {
             bindings = <
-&kp LC(LA(DELETE))  &trans  &kp LA(F4)  &kp LC(A)  &kp LC(X)                         &trans    &trans  &trans  &trans  &trans
-&trans              &trans  &trans      &kp LC(Z)  &kp LC(C)  &trans       &trans    &trans    &trans  &trans  &trans  &trans
-&trans              &trans  &trans      &kp LC(Y)  &kp LC(V)  &kp LC(W)    &trans    &trans    &trans  &trans  &trans  &trans
-&trans              &trans  &trans      &mkp MB3   &mkp MB2   &mkp MB1     &mkp MB4  &mkp MB5                          &trans
+&kp LC(LA(DELETE))  &kp LG(UP_ARROW)    &kp LC(W)   &kp LC(A)  &kp LC(X)                           &trans    &trans  &trans  &trans  &trans
+&trans              &kp LG(DOWN_ARROW)  &kp LA(F4)  &kp LC(Z)  &kp LC(C)  &trans         &trans    &trans    &trans  &trans  &trans  &trans
+&trans              &trans              &trans      &kp LC(Y)  &kp LC(V)  &kp LC(TAB)    &trans    &trans    &trans  &trans  &trans  &trans
+&trans              &trans              &trans      &mkp MB3   &mkp MB2   &mkp MB1       &mkp MB4  &mkp MB5                          &trans
             >;
         };
 
