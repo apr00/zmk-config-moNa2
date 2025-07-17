@@ -44,6 +44,11 @@
             bindings = <&kp TAB>;
             key-positions = <0 10>;
         };
+
+        Enttter {
+            bindings = <&kp ENTER>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
