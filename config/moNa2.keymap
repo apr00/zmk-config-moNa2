@@ -166,10 +166,10 @@
 
         layer_4 {
             bindings = <
-&kp LC(LA(DELETE))  &trans  &kp LC(W)   &kp LC(A)  &kp LC(X)                           &trans    &trans  &trans  &trans  &trans
-&trans              &trans  &kp LA(F4)  &kp LC(Z)  &kp LC(C)  &trans         &trans    &trans    &trans  &trans  &trans  &trans
-&trans              &trans  &trans      &kp LC(Y)  &kp LC(V)  &kp LC(TAB)    &trans    &trans    &trans  &trans  &trans  &trans
-&trans              &trans  &trans      &mkp MB3   &mkp MB2   &mkp MB1       &mkp MB4  &mkp MB5                          &trans
+&kp LC(LA(DELETE))  &trans  &kp LC(W)   &kp LC(A)  &kp LC(X)                                     &trans            &trans  &trans  &trans  &trans
+&trans              &trans  &kp LA(F4)  &kp LC(Z)  &kp LC(C)  &trans         &trans              &trans            &trans  &trans  &trans  &trans
+&trans              &trans  &trans      &kp LC(Y)  &kp LC(V)  &kp LC(TAB)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &trans  &trans  &trans  &trans
+&trans              &trans  &trans      &mkp MB3   &mkp MB2   &mkp MB1       &mkp MB4            &mkp MB5                                  &trans
             >;
         };
 
